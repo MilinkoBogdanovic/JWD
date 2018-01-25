@@ -1,0 +1,23 @@
+<div ng-controller="editPrevoznikCtrl">
+   	<form>
+			<div class="form-group">
+				<label for="naziv">Naziv</label> <input
+					ng-model="noviPrevoznik.naziv" type="text" class="form-control"
+					id="naziv">
+			</div>
+			<div class="form-group">
+				<label for="adresa">Adresa</label> <input
+					ng-model="noviPrevoznik.adresa" type="text" class="form-control"
+					id="adresa">
+			</div>
+			<div class="form-group">
+				<label for="pib">PIB</label> <input
+					ng-model="noviPrevoznik.pib" type="text" class="form-control"
+					id="pib">
+			</div>
+
+				
+		
+        <button type="button" class="btn btn-primary" ng-click="dodajPr()">Dodaj</button>
+    </form>
+</div>
